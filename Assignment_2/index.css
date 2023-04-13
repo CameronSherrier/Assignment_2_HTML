@@ -10,7 +10,15 @@ h4 {
     text-align: center;
     color: gray;
     border: 2px solid gray;
+    margin-left: 700px;
+    margin-right: 700px;
 }
-#b1 {
-    align-items: center;
+#row_button {
+    text-align: center;
+}
+#row_w_line {
+    border: 3px solid gray;
+    margin-top: 3px;
+    margin-left: 700px;
+    margin-right: 700px;
 }
