@@ -27,17 +27,14 @@ h1  {
     margin: 1px auto 3px 5px;
 }
 
+h5  {
+    text-align: center;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto;
     padding: 5px;
-}
-
-.grid-container-two {
-    display: grid;
-    grid-template-columns: auto;
-    border: 1px solid black;
-    padding: 10px;
 }
 
 .grid-item  {
@@ -46,7 +43,7 @@ h1  {
 }
 
 .box_one    {
-    padding: 5px auto 5px auto;
+    padding: 5px 15px 5px 15px;
     border: 1px solid black;
 }
 
@@ -121,4 +118,12 @@ ul  {
     padding: 5px 100px 5px 100px;
     background-color: rgb(204, 188, 188);
     border-radius: 1px;
+}
+
+.grid-container-two {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-top: 2px solid gray;
+    column-gap: 10px;
+    padding-top: 30px;
 }
