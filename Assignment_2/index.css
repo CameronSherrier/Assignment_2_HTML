@@ -14,11 +14,13 @@ h6  {
     text-align: center;
 }
 
+h1  {
+    margin: 1px auto 3px 5px;
+}
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    border: 1px solid black;
+    grid-template-columns: 1000px auto 1000px;
     padding: 5px;
 }
 
@@ -32,7 +34,34 @@ h6  {
 .grid-item  {
     background-color: rgb(255, 255, 255, 0.8);
     border: 1px solid black;
-    font-size: 15px;
-    text-align: left;
     grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.box_one    {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.row_1  {
+    padding-left: 5px;
+}
+
+.row_2  {
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.row_3  {
+    padding-left: 10px;
+}
+
+.row_4  {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.row_5  {
+    padding-left: 10px;
 }
