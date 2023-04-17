@@ -2,9 +2,37 @@ body {
     margin: 40px;
 }
 
-.wrapper {
+h3  {
+    text-align: center;
+}
+
+h2  {
+    text-align: center;
+}
+
+h6  {
+    text-align: center;
+}
+
+
+.grid-container {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
-    border: 3px solid red;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.grid-container-two {
+    display: grid;
+    grid-template-columns: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.grid-item  {
+    background-color: rgb(255, 255, 255, 0.8);
+    border: 1px solid black;
+    font-size: 15px;
+    text-align: left;
+    grid-column-start: 2;
 }
